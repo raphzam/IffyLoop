@@ -11,6 +11,7 @@ public class IffyLoop {
         System.out.println("Enter five words");
 
         for (int i = 0; i < 5; i++) {
+            System.out.printf("Word %d:\n",i+1);
             fiveWords += input.nextLine() + " ";
         }
         System.out.println(fiveWords);
