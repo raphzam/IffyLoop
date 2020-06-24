@@ -39,7 +39,7 @@ public class IffyLoop {
         //        IFFYLOOP
 
         do {
-            System.out.println("Do you want to try again?");
+            System.out.println("Do you want to try again? (Type \"n\" to stop");
             userAnswer = input.nextLine();
         } while (!userAnswer.equalsIgnoreCase("n"));
 
