@@ -7,15 +7,13 @@ public class IffyLoop {
         Scanner input = new Scanner(System.in);
 
 //        LOOPY
-
-
-        String fiveWords;
+        String fiveWords = "";
         System.out.println("Enter five words");
 
         for (int i = 0; i < 5; i++) {
-            fiveWords = input.nextLine();
+            fiveWords += input.nextLine() + " ";
         }
-        System.out.println("You entered five words.");
+        System.out.println(fiveWords);
 
 
 
